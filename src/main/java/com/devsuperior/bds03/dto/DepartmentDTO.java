@@ -2,6 +2,8 @@ package com.devsuperior.bds03.dto;
 
 import java.io.Serializable;
 
+import javax.validation.constraints.NotBlank;
+
 import com.devsuperior.bds03.entities.Department;
 
 public class DepartmentDTO implements Serializable {
